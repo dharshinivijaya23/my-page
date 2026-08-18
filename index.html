@@ -1,37 +1,107 @@
-<div class="new-container">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel World</title>
 
-    <button class="new-button">
-        ＋ New
-    </button>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            text-align: center;
+            background: #f2f8f8;
+        }
 
-    <div class="new-menu">
+        nav {
+            background: #16878b;
+            padding: 15px;
+        }
 
-        <div class="new-item">
-            📁 New Folder
-        </div>
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
 
-        <div class="new-item">
-            📄 File Upload
-        </div>
+        .home {
+            padding: 60px 20px;
+            background: #d8f3f4;
+        }
 
-        <div class="new-item">
-            📂 Folder Upload
-        </div>
+        h1 {
+            color: #12676a;
+        }
 
-        <hr>
+        .places {
+            padding: 30px;
+        }
 
-        <div class="new-item">
-            📝 Google Document
-        </div>
+        .place {
+            display: inline-block;
+            background: white;
+            width: 200px;
+            margin: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 8px #bbb;
+        }
 
-        <div class="new-item">
-            📊 Google Spreadsheet
-        </div>
+        .place img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
 
-        <div class="new-item">
-            📽️ Google Presentation
-        </div>
+        footer {
+            background: #16878b;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
 
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#places">Places</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="home">
+        <h1>Travel World</h1>
+        <p>Explore beautiful places around the world.</p>
     </div>
 
-</div>
+    <div class="places" id="places">
+        <h2>Popular Places</h2>
+
+        <div class="place">
+            <img src="C:\Users\STUDENT\Desktop\travel website\img1.png">
+            <h3>JAPAN</h3>
+            <p>Beautiful beaches and nature.</p>
+        </div>
+
+        <div class="place">
+            <img src="C:\Users\STUDENT\Desktop\travel website\img2.png">
+            <h3>INDIA</h3>
+            <p>City of love and culture.</p>
+        </div>
+
+        <div class="place">
+            <img src="C:\Users\STUDENT\Desktop\travel website\img3.png">
+            <h3>ENGLAND</h3>
+            <p>Modern city and culture.</p>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h2>Contact</h2>
+        <p>Email: travelweb@example.com</p>
+    </div>
+
+    <footer>
+        © 2026 Travel World
+    </footer>
+
+</body>
+</html>
